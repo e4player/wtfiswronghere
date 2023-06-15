@@ -25,6 +25,7 @@ def fizzbuzz(max_num):
         if i%num1==0 and i%num2==0:
             print(i,three_mul+five_mul)
         elif i%num1==0:
+        #missing equals sign
             print(i,three_mul)
         elif i%num2==0:
             print(i,five_mul)
