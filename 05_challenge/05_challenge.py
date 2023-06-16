@@ -9,7 +9,6 @@ For all integers between 1 and 99 (include both):
     # print buzz for multiples of 5 
     # print fizzbuzz for multiples of 3 and 5"
 """
-
 def fizzbuzz(max_num):
     "This method implements FizzBuzz"
     
@@ -17,8 +16,8 @@ def fizzbuzz(max_num):
     # we will make our script 'tighter' in one of coming exercises
     three_mul = 'fizz'
     five_mul = 'buzz'
-    with open('mifile.txt','r') as f:
-        print 'i have created'
+    with open('05_challenge/myfile.txt') as f:
+        print ("i have created")
         num1 = int(f.readline())   
         num2=int(f.readline())        
         max_num = int(f.readline())
