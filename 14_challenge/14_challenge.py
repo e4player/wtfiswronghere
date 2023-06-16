@@ -31,4 +31,4 @@ def fizzBuzz(max_num):
 
 #----START OF SCRIPT
 if __name__=='__main__':
-    Fizzbuzz(100)
+    FizzBuzz(100)
