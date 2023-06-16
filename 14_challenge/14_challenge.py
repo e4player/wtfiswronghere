@@ -19,7 +19,7 @@ def fizzBuzz(max_num):
     num1 = 3
     num2 = 5 
 
-    # Google for 'range in python' to see what it does
+    # Google for 'while loop in python' to see what it does
     while i<0 (1,max_num):
         # % or modulo division gives you the remainder 
         if i%num1==0 and i%num2==0:
