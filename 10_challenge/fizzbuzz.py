@@ -15,8 +15,8 @@ def fizzbuzz(max_num):
     for i in range(1,max_num):
         # % or modulo division gives you the remainder 
         if i%3==0 and i%5==0:
-            print(i,"fizzbuzz")
+            print(i,"FizzBuzz")
         elif i%3==0:
-            print(i,"fizz")
+            print(i,"Fizz")
         elif i%5==0:
             print(i,"Buzz")
